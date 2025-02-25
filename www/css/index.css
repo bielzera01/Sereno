@@ -1,0 +1,103 @@
+:root{
+    --branco: #FFFF;
+    --gelo: #f1f1f1;
+    --rosa: #fc7fb6;
+    --preto: #2a2a2a;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.toolbar{
+    height: 80px;
+}
+
+.tab-link{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.toolbar-inner{
+    background-color: var(--branco);
+    border-top: 1px solid var(--gelo);
+}
+
+.toolbar-inner .link{    
+    flex:1;
+    height: 80px;  
+    line-height: 25px; 
+	font-weight:bold;  
+    color: var(--rosa);  
+}
+
+.toolbar-inner .link:not(.active){
+    color: var(--preto);
+	font-weight:normal;
+}
+
+.toolbar-inner > .link i{
+    font-size: 28px;
+}
+
+.top-nav {
+    width: 100%;
+    height: 60px;
+    background: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-logo {
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+.titulo-logo span {
+    color: var(--rosa);
+}
+
+.notficacoes {
+    width: 40px;
+    height: 40px;
+    background: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+    border-radius: 50%;
+    border: 1px solid var(--gelo);
+    font-size: 24px;
+    color: var(--preto);
+}
+
+.notficacoes::before {
+    content: attr(data-count);
+    background: var(--rosa);
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: var(--branco);
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    margin-right: 5%;
+}
+
+.notficacoes [data-count = "0"]::before {
+    display: none;
+}
+
+a{
+    color: var(--rosa);
+    font-weight: 600;
+    text-decoration: none;
+}

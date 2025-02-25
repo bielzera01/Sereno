@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>SerenaMente</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/index.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--Icones do Remix Icon-->
+    <link rel="stylesheet" href="css/remixincon.css/remixicon.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+            <!-- TAB BAR-->
+            <div class="toolbar toolbar-bottom">
+                <div class="toolbar-inner display-flex">
+                    <a href="/index/" class="tab-link link active">
+                        <i class="ri-home-heart-line"></i>
+                        <span>Inicio</span>
+                    </a>
+                    <a href="/link2/" class="tab-link link">
+                        <i class="ri-chat-3-line"></i>
+                        <span>Menssagens</span>
+                    </a>
+                    <a href="/link3/" class="tab-link link">
+                        <i class="ri-calendar-schedule-line"></i>
+                        <span>Agenda</span>
+                    </a>
+                    <a href="/link4/" class="tab-link link">
+                        <i class="mdi mdi-account"></i>
+                        <span>Perfil</span>
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="index" class="page color-theme-blue">
+
+               
+<!--Nav Topo-->
+            <div class="top-nav">
+                <h1 class="titulo-logo"><span>Serena</span>Mente</h1>
+                <a href="#" class="notficacoes" data-count="5">
+                    <i class="ri-notification-line"></i>
+                </a>
+            </div>
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+                    <div class="block">
+                        Conteúdo do link 1
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>
