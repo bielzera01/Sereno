@@ -177,3 +177,57 @@ a{
     border-radius: 10px;
     border-color: var(--rosa);
 }
+
+.psico-card-chat {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    width: 500px; 
+    height: 60px;
+    padding: 10px;
+    border-bottom: 1px solid var(--gelo);
+}
+
+.psico-link-chat {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.psico-foto-chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px; /* Adiciona espaço entre a foto e o texto */
+}
+
+.psico-foto-chat img {
+    max-width: 95%;
+    min-width: 95%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.psico-info-chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.psico-nome-chat {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.psico-descricao-chat {
+    color: grey;
+    font-size: 12px;
+}
+
