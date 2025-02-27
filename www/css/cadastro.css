@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(180deg, rgb(255, 0, 166), rgb(246, 116, 196));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+:root{
+    --branco: #FFFF;
+    --gelo: #f1f1f1;
+    --rosa: #fc7fb6;
+    --preto: #2a2a2a;
+}
+
+.container {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 250px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.container form input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 0, 166);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group2 input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+}
+
+.form-group2-radio {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 150px;
+}
+
+.form-group2 {
+    position: relative;
+    left: 14.5px;
+}
+
+.form-group3 {
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.login {
+    text-align: center;
+    margin-top: 5px;
+    position: relative;
+    color: var(--rosa);
+    font-size: 13px;
+}
+
+.login-link {
+    color: var(--rosa);
+    font-size: 13px;
+}
+
+.login-link:hover {
+    color: var(--preto);
+}
+
