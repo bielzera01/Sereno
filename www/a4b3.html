@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.1.5/dist/mindar-image.prod.js"></script>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.1.5/dist/mindar-image-aframe.prod.js"></script>
+    <link rel="stylesheet" href="cadastro.css">
+  </head>
+  
+  <body>
+
+    <header class="header">
+      <img class = "logo_secundaria" src="img/logo_header.png" alt="">
+  </header>
+
+    <a-scene mindar-image= "imageTargetSrc: logo.mind" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-gltf-model src="Imagens do jogo/heart_in_love/scene.gltf" position="0 0 0" rotation="90 0 0" scale="0.1 0.1 0.1"></a-gltf-model>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>

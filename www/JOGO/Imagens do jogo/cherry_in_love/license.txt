@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cherry in love
+* source:	https://sketchfab.com/3d-models/cherry-in-love-e7b3cde007844eb69daea81403d71792
+* author:	Sergio (https://sketchfab.com/voicehovich)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cherry in love" (https://sketchfab.com/3d-models/cherry-in-love-e7b3cde007844eb69daea81403d71792) by Sergio (https://sketchfab.com/voicehovich) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

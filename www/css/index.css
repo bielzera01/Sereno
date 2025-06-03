@@ -165,8 +165,16 @@ a{
 .psico-valor {
     font-size: 16px;
     font-weight: bold;
-    color: var(--preto);
+    color: var(--branco);
     margin-top: 10px;
+    background-color: var(--rosa);
+    border-radius: 10px;
+    border-color: var(--rosa);
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-inicio {

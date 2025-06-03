@@ -1,0 +1,11 @@
+Model Information:
+* title:	Night sky
+* source:	https://sketchfab.com/3d-models/night-sky-aebbd4f5b37a4dfd8e3556de9084bae9
+* author:	Moonwise (https://sketchfab.com/Moonwise)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Night sky" (https://sketchfab.com/3d-models/night-sky-aebbd4f5b37a4dfd8e3556de9084bae9) by Moonwise (https://sketchfab.com/Moonwise) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Troféu Brasileirão
+* source:	https://sketchfab.com/3d-models/trofeu-brasileirao-5a2955df0be44360ae93c4c015f3b4f5
+* author:	Gavinho.yuri (https://sketchfab.com/Gavinho.yuri)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Troféu Brasileirão" (https://sketchfab.com/3d-models/trofeu-brasileirao-5a2955df0be44360ae93c4c015f3b4f5) by Gavinho.yuri (https://sketchfab.com/Gavinho.yuri) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

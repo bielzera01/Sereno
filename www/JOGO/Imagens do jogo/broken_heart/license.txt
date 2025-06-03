@@ -1,0 +1,11 @@
+Model Information:
+* title:	Broken Heart
+* source:	https://sketchfab.com/3d-models/broken-heart-0453925e3c11435ca4d77bff19f5c39d
+* author:	Hi-Mi (https://sketchfab.com/Hi-Mi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Broken Heart" (https://sketchfab.com/3d-models/broken-heart-0453925e3c11435ca4d77bff19f5c39d) by Hi-Mi (https://sketchfab.com/Hi-Mi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

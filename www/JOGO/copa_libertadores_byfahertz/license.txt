@@ -1,0 +1,11 @@
+Model Information:
+* title:	Copa_libertadores_byfahertz
+* source:	https://sketchfab.com/3d-models/copa-libertadores-byfahertz-3834c6b3a4634176ad7c6f6ed04f0347
+* author:	Itz_fahertz (https://sketchfab.com/Itz_fahertz)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Copa_libertadores_byfahertz" (https://sketchfab.com/3d-models/copa-libertadores-byfahertz-3834c6b3a4634176ad7c6f6ed04f0347) by Itz_fahertz (https://sketchfab.com/Itz_fahertz) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

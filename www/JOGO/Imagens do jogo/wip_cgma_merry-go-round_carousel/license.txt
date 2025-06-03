@@ -1,0 +1,11 @@
+Model Information:
+* title:	WIP CGMA Merry-go-round carousel
+* source:	https://sketchfab.com/3d-models/wip-cgma-merry-go-round-carousel-ab3bd8f68e3b4ab787961e77eafec4b2
+* author:	Enkarra (https://sketchfab.com/Enkarra)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "WIP CGMA Merry-go-round carousel" (https://sketchfab.com/3d-models/wip-cgma-merry-go-round-carousel-ab3bd8f68e3b4ab787961e77eafec4b2) by Enkarra (https://sketchfab.com/Enkarra) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

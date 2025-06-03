@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pagamento</title>
+  <style>
+
+:root{
+    --branco: #FFFF;
+    --gelo: #f1f1f1;
+    --rosa: #fc7fb6;
+    --preto: #2a2a2a;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--gelo);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: var(--gelo);
+    }
+
+    .produto {
+      text-align: center;
+    }
+
+    .produto img {
+      max-width: 100px;
+      border-radius: 10px;
+    }
+
+    .produto h2 {
+      margin: 10px 0 5px;
+    }
+
+    .produto p {
+      color: var(--preto);
+    }
+
+    .preco {
+      font-size: 24px;
+      color: var(--rosa);
+      margin: 10px 0;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 20px;
+      padding: 12px;
+      background: var(--rosa);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ff4aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="produto">
+      <img class="img" src="img/Mariana.jpg">
+      <h2>Vivian Petrille</h2>
+      <p>Psicóloga clínica com mais de 10 anos de experiência e especializada em saúde mentalp>
+      <div class="preco">R$ 121,99</div>
+    </div>
+
+    <form action="/processar-pagamento" method="POST">
+      <label for="nome">Nome completo</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="pagamento">Forma de pagamento</label>
+      <select id="pagamento" name="pagamento" required>
+        <option value="">Selecione</option>
+        <option value="cartao">Cartão de Crédito</option>
+        <option value="pix">Pix</option>
+        <option value="boleto">Boleto Bancário</option>
+      </select>
+
+      <!-- Campos adicionais para cartão -->
+      <div id="dados-cartao" style="display:none;">
+        <label for="numero">Número do Cartão</label>
+        <input type="text" id="numero" name="numero" maxlength="19">
+
+        <label for="validade">Validade (MM/AA)</label>
+        <input type="text" id="validade" name="validade" maxlength="5">
+
+        <label for="cvv">CVV</label>
+        <input type="text" id="cvv" name="cvv" maxlength="4">
+      </div>
+
+      <button type="submit">Finalizar</button>
+    </form>
+  </div>
+
+  <script>
+    const selectPagamento = document.getElementById('pagamento');
+    const dadosCartao = document.getElementById('dados-cartao');
+
+    selectPagamento.addEventListener('change', function () {
+      if (this.value === 'cartao') {
+        dadosCartao.style.display = 'block';
+      } else {
+        dadosCartao.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

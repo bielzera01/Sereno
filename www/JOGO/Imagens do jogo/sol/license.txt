@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sol
+* source:	https://sketchfab.com/3d-models/sol-617e844efd8447ff8336ecc0b0c31c54
+* author:	agusito16 (https://sketchfab.com/agusito16)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sol" (https://sketchfab.com/3d-models/sol-617e844efd8447ff8336ecc0b0c31c54) by agusito16 (https://sketchfab.com/agusito16) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

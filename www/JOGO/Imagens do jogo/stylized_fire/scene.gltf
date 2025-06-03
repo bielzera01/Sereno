@@ -1,0 +1,550 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1.7486300468444824,
+        1.7510813474655151,
+        4.688621997833252
+      ],
+      "min": [
+        -1.5487807989120483,
+        -1.4128973484039307,
+        0.04661629721522331
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999846816062927,
+        0.9999666810035706,
+        0.9999184012413025
+      ],
+      "min": [
+        -0.9998612999916077,
+        -0.9999882578849792,
+        -0.9999874830245972
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 356826,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 45865,
+      "max": [
+        0.5745317935943604,
+        1.8233627080917358,
+        4.671604156494141
+      ],
+      "min": [
+        -1.5573707818984985,
+        -1.4193792343139648,
+        0.04661629721522331
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2123148,
+      "componentType": 5126,
+      "count": 45865,
+      "max": [
+        0.9998711347579956,
+        0.9999367594718933,
+        0.9999939799308777
+      ],
+      "min": [
+        -0.9999858736991882,
+        -0.9999862313270569,
+        -0.9999518990516663
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1427304,
+      "componentType": 5125,
+      "count": 222318,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2673528,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1.264775037765503,
+        1.5877951383590698,
+        4.6497297286987305
+      ],
+      "min": [
+        -1.1610875129699707,
+        -0.3601212501525879,
+        0.01646171323955059
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3459912,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1.0,
+        1.0,
+        0.9999979734420776
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9999468922615051
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2316576,
+      "componentType": 5125,
+      "count": 340938,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4246296,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1.2456996440887451,
+        0.996903121471405,
+        4.645425319671631
+      ],
+      "min": [
+        -1.1753175258636475,
+        -1.2233439683914185,
+        0.011324559338390827
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 5032680,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1.0,
+        0.9999999403953552,
+        0.9999992251396179
+      ],
+      "min": [
+        -0.9999999403953552,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3680328,
+      "componentType": 5125,
+      "count": 327309,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 5819064,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.5285199880599976,
+        1.1156424283981323,
+        4.6483235359191895
+      ],
+      "min": [
+        -1.1608918905258179,
+        -1.3671746253967285,
+        0.011325283907353878
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 6605448,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999999403953552,
+        1.0,
+        0.9999983906745911
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9999999403953552
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 4989564,
+      "componentType": 5125,
+      "count": 293157,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7391832,
+      "componentType": 5126,
+      "count": 13086,
+      "max": [
+        0.5429847836494446,
+        1.5813069343566895,
+        4.513611316680908
+      ],
+      "min": [
+        -0.9425252676010132,
+        -1.2059180736541748,
+        0.011509290896356106
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7548864,
+      "componentType": 5126,
+      "count": 13086,
+      "max": [
+        0.9999999403953552,
+        0.9999960064888,
+        0.999993622303009
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9999731779098511
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 6162192,
+      "componentType": 5125,
+      "count": 51096,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Angry_Filin (https://sketchfab.com/angry_filin)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/stylized-fire-310d29f8985b426cbc7945c335aabd16",
+      "title": "Stylized Fire"
+    },
+    "generator": "Sketchfab-15.30.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6366576,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7705896,
+      "byteOffset": 6366576,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 14072472,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_emissive_strength"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Smoke",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0539368,
+          0.0539368,
+          0.0539368,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 10.0
+        }
+      },
+      "name": "Fire",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.47230732036261786,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Smoke_Smoke_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Smoke_Smoke_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Fire_Fire_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6
+          },
+          "indices": 8,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Fire_Fire_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 10,
+            "POSITION": 9
+          },
+          "indices": 11,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Fire_Fire_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12
+          },
+          "indices": 14,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Fire_Fire_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 16,
+            "POSITION": 15
+          },
+          "indices": 17,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        6.123234262925839e-17,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        6.123234262925839e-17,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "0cb18d9b157d4c89bd347210f92500ea.fbx"
+    },
+    {
+      "children": [
+        3,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Smoke"
+    },
+    {
+      "mesh": 0,
+      "name": "Smoke_Smoke_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Smoke_Smoke_0"
+    },
+    {
+      "children": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Fire"
+    },
+    {
+      "mesh": 2,
+      "name": "Fire_Fire_0"
+    },
+    {
+      "mesh": 3,
+      "name": "Fire_Fire_0"
+    },
+    {
+      "mesh": 4,
+      "name": "Fire_Fire_0"
+    },
+    {
+      "mesh": 5,
+      "name": "Fire_Fire_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

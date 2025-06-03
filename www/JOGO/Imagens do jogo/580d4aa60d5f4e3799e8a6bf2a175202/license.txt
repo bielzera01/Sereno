@@ -1,0 +1,11 @@
+Model Information:
+* title:	лаберинт1
+* source:	https://sketchfab.com/3d-models/1-580d4aa60d5f4e3799e8a6bf2a175202
+* author:	kukagalymzan1 (https://sketchfab.com/kukagalymzan1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "лаберинт1" (https://sketchfab.com/3d-models/1-580d4aa60d5f4e3799e8a6bf2a175202) by kukagalymzan1 (https://sketchfab.com/kukagalymzan1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

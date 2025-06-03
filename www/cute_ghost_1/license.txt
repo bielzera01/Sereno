@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cute ghost
+* source:	https://sketchfab.com/3d-models/cute-ghost-f1034266c2164d0eb0d0a6fe02ebf7d8
+* author:	kimkimmikmik (https://sketchfab.com/ngungnging)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cute ghost" (https://sketchfab.com/3d-models/cute-ghost-f1034266c2164d0eb0d0a6fe02ebf7d8) by kimkimmikmik (https://sketchfab.com/ngungnging) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
