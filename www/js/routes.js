@@ -93,8 +93,17 @@ var app = new Framework7({
 		},
 	  }
     },
+    {
+      path: '/pagamento1/',
+      url: 'pagamento1.html',
+    },
+    {
+      path: '/pagamento2/',
+      url: 'pagamento2.html',
+    },
+    
   ],
-  // ... other parameters
+  
 });
 
 //Para testes direto no navegador

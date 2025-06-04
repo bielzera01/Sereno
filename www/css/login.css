@@ -64,6 +64,29 @@ body {
     cursor: pointer;
 }
 
+.login {
+    text-align: center;
+    margin-top: 5px;
+    position: relative;
+    color: var(--rosa);
+    font-size: 11px;
+}
+
+
+.login-link {
+    color: var(--rosa);
+    font-size: 11px;
+}
+
+.login-link:hover {
+    color: var(--preto);
+}
+
+
+.erro {
+    color: red;
+    margin-bottom: 10px;
+}
 
 
 

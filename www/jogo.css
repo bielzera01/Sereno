@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
 }
 
 body {
@@ -18,8 +19,23 @@ body {
     padding: 0%;
 
     .logo_secundaria {
-        width: 10%;
+        width: 130px;
     }
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.regras {
+    color: aliceblue;
+    font-size: small;
+    padding-top: 5px;
 }
 
 .alvos {
@@ -34,11 +50,25 @@ body {
 .imagem-botao {
 
     cursor: pointer;
-    width: 12%; 
+    width: 120px; 
     height: auto;
     margin: 1%;
     transition: transform 0.3s;
 }
 .imagem-botao:hover {
     transform: scale(1.1); 
+}
+
+@media (max-width: 630px) {
+    .alvos1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 7.5px;
+    }
+
+    .imagem-botao {
+        padding-top: 15px;
+    }
 }
