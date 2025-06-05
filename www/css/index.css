@@ -74,7 +74,7 @@ body {
     font-size: 24px;
     color: var(--preto);
 }
-
+/*
 .notficacoes::before {
     content: attr(data-count);
     background: var(--rosa);
@@ -95,7 +95,7 @@ body {
 .notficacoes [data-count = "0"]::before {
     display: none;
 }
-
+*/
 a{
     color: var(--rosa);
     font-weight: 600;
