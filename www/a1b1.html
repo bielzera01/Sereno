@@ -23,27 +23,27 @@
     </a-scene>
 
     <!-- no final de a1b1.html, antes de fechar </body> -->
-<script>
-    document.addEventListener("deviceready", function () {
-        if (cordova && cordova.plugins && cordova.plugins.permissions) {
-            const permissions = cordova.plugins.permissions;
+    <script>
+        document.addEventListener("deviceready", function () {
+            if (cordova && cordova.plugins && cordova.plugins.permissions) {
+                const permissions = cordova.plugins.permissions;
 
-            permissions.requestPermissions(
-                [permissions.CAMERA],
-                function (status) {
-                    if (!status.hasPermission) {
-                        console.warn("Permissão da câmera não concedida.");
+                permissions.requestPermissions(
+                    [permissions.CAMERA],
+                    function (status) {
+                        if (!status.hasPermission) {
+                            console.warn("Permissão da câmera não concedida.");
+                        }
+                    },
+                    function (error) {
+                        console.error("Erro ao solicitar permissão da câmera:", error);
                     }
-                },
-                function (error) {
-                    console.error("Erro ao solicitar permissão da câmera:", error);
-                }
-            );
-        } else {
-            console.warn("Plugin de permissões não está disponível.");
-        }
-    });
-</script>
+                );
+            } else {
+                console.warn("Plugin de permissões não está disponível.");
+            }
+        });
+    </script>
 
   </body>
 </html>

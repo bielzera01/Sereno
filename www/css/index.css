@@ -236,6 +236,8 @@ a{
 .psico-foto-chat img {
     max-width: 95%;
     min-width: 95%;
+    max-height: 95%;
+    min-height: 95%;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -257,3 +259,270 @@ a{
     font-size: 12px;
 }
 
+
+/* Perfil */
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: var(--branco);
+    border-radius: 12px;
+    margin: 1.2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.foto-perfil {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--rosa);
+    flex-shrink: 0;
+}
+
+.foto-perfil img.foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.perfil div:last-child {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Informações */
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 1.2rem;
+}
+
+.informacoes a {
+    text-decoration: none;
+}
+
+.informacoes button {
+    background-color: var(--branco);
+    border: 2px solid var(--rosa);
+    color: var(--rosa);
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    cursor: pointer;
+}
+
+.informacoes button:hover {
+    background-color: var(--rosa);
+    color: var(--branco);
+    transform: translateY(-2px);
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 1.2rem;
+}
+
+/* Novo botão estilo lista */
+.info-button {
+    display: block;
+    text-align: center;
+    background-color: var(--branco);
+    color: var(--rosa);
+    border: 2px solid var(--rosa);
+    border-radius: 12px;
+    padding: 0.8rem 1rem;
+    font-size: 1.1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.info-button:hover {
+    background-color: var(--rosa);
+    color: var(--branco);
+    transform: translateY(-2px);
+}
+
+.page[data-name="agenda"] {
+  background-color: #fff9fc;
+}
+
+.card p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.button.color-pink {
+  background-color: #ff69b4;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.block-title {
+  margin-top: 30px;
+  color: #999;
+  text-align: center;
+}
+
+
+.logo_secundaria {
+    width: 10%; 
+    height: auto; 
+    margin-left: 10px; 
+}
+
+#title {
+    margin-left: 10px; 
+}
+
+#title h1 {
+    font-size: 3vw; 
+    color: white;
+}
+
+#conteudo-principal {
+    padding: 4%;
+}
+
+#conteudo-principal h2 {
+    font-size: 2rem;
+    margin-bottom: 1.1rem;
+    color: #ff69b4; 
+}
+
+#conteudo-principal h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: black;
+    padding-left: 40px; 
+}
+
+#conteudo-principal p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    line-height: 1.6;
+    color: black;
+    padding-left: 40px; 
+    margin-bottom: 1rem; 
+}
+
+
+footer {
+    padding: 5%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ff69b4;
+}
+
+.footer-content p, .footer-content a {
+    color: #DBD45B;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.footer-content a {
+    text-decoration: none;
+}
+
+.botoes-container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+}
+
+.botao {
+    background-color: #DBD45B;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #c7ba47;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: row; 
+    }
+
+    .logo_secundaria {
+        width: 23%; 
+    }
+
+    #title h1 {
+        font-size: 5vw; 
+    }
+
+    #conteudo-principal {
+        padding: 2%;
+    }
+
+    #conteudo-principal h2 {
+        font-size: 1.5rem; 
+    }
+
+    #conteudo-principal h3 {
+        font-size: 1.3rem; 
+        padding-left: 20px; 
+    }
+
+    #conteudo-principal p {
+        font-size: 1rem; 
+        padding-left: 20px; 
+    }
+
+    .botoes-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
+
+@media (max-width: 480px) {
+    .logo_secundaria {
+        width: 20%; 
+    }
+
+    #title h1 {
+        font-size: 5vw; 
+    }
+
+    #conteudo-principal {
+        padding: 5%; 
+    }
+
+    #conteudo-principal h2 {
+        font-size: 1.2rem; 
+    }
+
+    #conteudo-principal h3 {
+        font-size: 0.9rem; 
+    }
+
+    #conteudo-principal p {
+        font-size: 0.9rem; 
+    }
+
+    .botao {
+        width: 100%; 
+        padding: 10px; 
+    }
+}

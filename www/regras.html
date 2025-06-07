@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regras do Jogo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #fc7fb6;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            height: 50px;
+            margin-left: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #fc7fb6;
+        }
+
+        h2 {
+            color: #fc7fb6;
+            margin-top: 30px;
+        }
+
+        ol, ul {
+            line-height: 1.8;
+            margin: 20px 0;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #fc7fb6;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        footer a {
+            color: #fc7fb6;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/logo_header.png" alt="Logo">
+    </header>
+
+    <div class="container">
+        <h1>Regras do Jogo</h1>
+        <ol>
+            <li>O jogo é baseado em um <span class="highlight">tabuleiro de corrida</span>, onde os jogadores devem avançar por etapas para alcançar o objetivo final.</li>
+            <li>Cada jogador possui um cubo físico com seis faces. Cada face do cubo está associada a um marcador visual (target) específico.</li>
+            <li>Ao escanear uma face do cubo usando a câmera, o sistema mostrará um modelo 3D aleatório em realidade aumentada (RA).</li>
+            <li>Os jogadores interagem com o modelo RA para realizar tarefas ou responder perguntas. O resultado determinará o avanço no tabuleiro.</li>
+            <li>A cada rodada, o jogador deve lançar o cubo novamente para obter uma nova face e tarefa.</li>
+            <li>O primeiro jogador a alcançar o objetivo final no tabuleiro é o vencedor.</li>
+            <li>As regras adicionais ou modificações podem ser aplicadas para personalizar a experiência de jogo.</li>
+        </ol>
+
+        <h2>Regras Específicas por Imagem</h2>
+        <ul>
+            <li><span class="highlight">Tempestade:</span> Objetivo: Resolva algo inesperado. Penalidade: Volte 2 casas.</li>
+            <li><span class="highlight">Sol Brilhante:</span> Objetivo: Demonstre energia positiva. Recompensa: Avance 2 casas.</li>
+            <li><span class="highlight">Relógio de Areia:</span> Objetivo: Expresse paciência. Recompensa: Avance 3 casas ou 1.</li>
+            <li><span class="highlight">Borboleta:</span> Objetivo: Cite algo a mudar. Recompensa: Role o cubo ou volte 1 casa.</li>
+            <li><span class="highlight">Coração:</span> Objetivo: Demonstre carinho. Recompensa: Avance 5 casas.</li>
+            <li><span class="highlight">Leão:</span> Objetivo: Desafie sua coragem. Recompensa: Avance 3 casas.</li>
+            <li><span class="highlight">Bússola:</span> Objetivo: Compartilhe superação. Recompensa: Avance 7 casas.</li>
+            <li><span class="highlight">Carrossel:</span> Objetivo: Conte lembranças felizes. Recompensa: Avance 4 casas.</li>
+        </ul>
+    </div>
+
+    <footer>
+        Criado para a <span class="highlight">plataforma de atendimento psicológico</span>. Para mais informações, visite nosso 
+        <a href="https://www.seusite.com" target="_blank">site oficial</a>.
+    </footer>
+</body>
+</html>

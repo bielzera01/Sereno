@@ -18,22 +18,21 @@
     <!--Ícones Material Design-->
     <link rel="stylesheet" href="css/materialdesignicons.min.css">
 
-
 </head>
 
 <body>
+    
     <!-- App root element -->
     <div id="app">
 
         <!-- Your main view, should have "view-main" class -->
         <div class="view view-main">
             <!-- Initial Page, "data-name" contains page name -->
-            <div data-name="link3" class="page">
+            <div data-name="link2" class="page">
 
-                <!-- Top Navbar -->
-    <!--Nav Topo-->
+        <!--Nav Topo-->
         <div class="top-nav">
-            <h1 class="titulo-logo">Agenda</h1>
+            <h1 class="titulo-logo">Perfil</h1>
             <a href="jogo.html">
                 <button onclick="window.location.href='jogo.html'" class="notficacoes">
                         <i class="ri-gamepad-fill"></i>
@@ -41,45 +40,33 @@
             </a>
         </div>
 
-        <div class="page-content">
-            <div class="block text-align-center">
-            <h2 style="margin-top: 10px;">📅 Sua agenda</h2>
-            <p id="data-hoje" style="color: #888;"></p>
-            </div>
+                <!-- Scrollable page content -->
+                <div class="page-content">
+                    <div class="perfil">
+                        <div class="foto-perfil" id="foto-perfil">
+                            <img class="foto" src="img/user.jpg">
+                        </div>
+                        <div>
+                            Vitor Gabriel
+                        </div>
+                    </div>
+                    <div class="informacoes">
 
-            <div class="block">
-            <div class="card">
-                <div class="card-content card-content-padding">
-                <p>📌 Você ainda não possui sessões futuras agendadas.</p>
-                <p>Encontre um psicólogo e agende sua primeira sessão!</p>
+                        <div class="informacoes">
+                            <a href="regras.html">
+                                <button onclick="window.location.href='regras.html'" class="info-button">Regras do jogo</button>
+                            </a>
+                            <a href="componentes.html">
+                                <button onclick="window.location.href='componentes.html'" class="info-button">Informações sobre a plataforma</button>
+                            </a>
+                            <a href="#">
+                                <button onclick="window.location.href='login.html'" class="info-button">Informações sobre a conta</button>
+                            </a>
+                        </div>
+
+                        </a>
+                    </div>
                 </div>
-            </div>
-            </div>
-
-            <div class="block text-align-center">
-            <a href="/index/" class="button button-fill color-pink">
-                Marcar nova sessão
-            </a>
-            </div>
-
-            <div class="block-title">Histórico</div>
-            <div class="list no-hairlines">
-            <ul>
-                <li class="item-content">
-                <div class="item-inner">
-                    <div class="item-title">14 de Maio, 10h - Sessão com Dra. Fernanda</div>
-                </div>
-                </li>
-                <li class="item-content">
-                <div class="item-inner">
-                    <div class="item-title">2 de Maio, 15h - Sessão com Dr. João</div>
-                </div>
-                </li>
-            </ul>
-            </div>
-        </div>
-        </div>
-
             </div>
         </div>
     </div>

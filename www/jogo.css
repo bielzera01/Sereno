@@ -38,13 +38,17 @@ body {
     padding-top: 5px;
 }
 
-.alvos {
+.alvos2 {
 
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 10%;
     
+}
+
+.alvos1 {
+    display: none;
 }
 
 .imagem-botao {
@@ -59,14 +63,22 @@ body {
     transform: scale(1.1); 
 }
 
-@media (max-width: 630px) {
-    .alvos1 {
+@media (max-width: 800px) {
+
+    .alvos2 {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 7.5px;
     }
+
+    .alvos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
 
     .imagem-botao {
         padding-top: 15px;

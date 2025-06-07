@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/login.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/login.css"> <!-- Seu CSS permanece igual -->
 </head>
 <body>
-    <div class="container">    
-        <h1>Login</h1>
-        <form action="/login" method="post">
-            <input type="text" name="username" placeholder="Usuário">
-            <input type="password" name="password" placeholder="Senha">
-            <button type="submit">Login</button>
-            <p class="login">Não possui uma conta? <a href="cadastro.html" class="login-link">Cadastre-se</a></p>
-        </form>
-    </div>
+  <div class="container">    
+    <h1>Login</h1>
+    <form action="/login" method="post">
+      <input type="text" name="username" placeholder="Usuário">
+      <input type="password" name="password" placeholder="Senha">
+      <button id="loginBtn">Login</button>
+      <p class="login">
+        Não possui uma conta? 
+        <a href="cadastro.html" class="login-link">Cadastre-se</a>
+      </p>
+    </form>
+  </div>
+
+  <!-- JavaScript de redirecionamento -->
+ <button id="loginBtn">Login</button>
+
+    <script>
+    document.getElementById("loginBtn").addEventListener("click", function (e) {
+        e.preventDefault();
+        // Redireciona para o index com parâmetro
+        window.location.href = "index.html?modo=login";
+    });
+    </script>
 
 </body>
 </html>

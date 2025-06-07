@@ -45,11 +45,14 @@
                         <i class="ri-calendar-schedule-line"></i>
                         <span>Agenda</span>
                     </a>
-                    <a href="/link4/" class="tab-link link">
+                    <a href="/link4/" id="perfilLink4" class="tab-link link">
                         <i class="mdi mdi-account"></i>
                         <span>Perfil</span>
                     </a>
-
+                    <a href="/perfil/" id="perfilLinkPerfil" class="tab-link link">
+                        <i class="mdi mdi-account"></i>
+                        <span>Perfil</span>
+                    </a>
                 </div>
             </div>
 
@@ -72,11 +75,8 @@
                     <div class="block">
                         <div id="psico" class="row">
                             <div class="psico-card">
-<<<<<<< HEAD
                                 <a href="pagamento1.html" class="psico-link">
-=======
-                                <a href="https://sandbox.mercadopago.com.br/checkout/v1/redirect/188e5ba3-57fc-4eaa-8461-3d53b15e9798/payment-option-form-v2/?preference-id=1272168356-9b99daee-0396-4f39-a487-e5a2fb1cfb5f&p=397f4f9cc22b05ccc79299cbebf218c3" class="psico-link">
->>>>>>> ce9420601a4a653cc318f7c31ab0c3aad877767a
+
                                     <div class="psico-foto">
                                         <img src="img/Mariana.jpg">
                                     </div>
@@ -88,14 +88,15 @@
                                             <p>Alta experiência com pacientes voltados para o esporte e a saúde</p>
                                         </div>
                                         <div class="psico-valor">
-                                            R$114,89
+                                            <button onclick="window.location.href='pagamento1.html'" class="btn-inicio">
+                                                R$114,89
+                                            </button>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                         
                             <div class="psico-card">
-                                <a href="/pagamento2/" class="psico-link">
                                     <div class="psico-foto">
                                         <img src="img/Vivian.jpg">
                                     </div>
@@ -107,10 +108,11 @@
                                             <p>Psicóloga clínica com mais de 10 anos de experiência e especializada em saúde mental</p>
                                         </div>
                                         <div class="psico-valor">
-                                            R$121,99
+                                            <button onclick="window.location.href='pagamento2.html'" class="btn-inicio">
+                                                R$121,99
+                                            </button>
                                         </div>
                                     </div>
-                                </a>
                             </div>
                             <div class="psico-card">
                                 <a href="#" class="psico-link">
@@ -125,7 +127,9 @@
                                             <p>Ajudo você a lidar com emoções, superar desafios e construir uma vida com mais equilíbrio e propósito</p>
                                         </div>
                                         <div class="psico-valor">
-                                            R$78,89
+                                            <button onclick="window.location.href='pagamento2.html'" class="btn-inicio">
+                                                R$74,59
+                                            </button>
                                         </div>
                                     </div>
                                 </a>
@@ -133,17 +137,19 @@
                             <div class="psico-card">
                                 <a href="#" class="psico-link">
                                     <div class="psico-foto">
-                                        <img src="img/user.jpg">
+                                        <img src="img/Matheus.jpg">
                                     </div>
                                     <div class="psico-info">
                                         <div class="psico-nome">
-                                            <span>Zé de las Ruelas</span>
+                                            <span>Matheus Barros</span>
                                         </div>
                                         <div class="psico-descricao">
                                             <p>Atendimento humanizado para adolescentes e adultos, com foco em autoconhecimento, ansiedade e relacionamentos</p>
                                         </div>
                                         <div class="psico-valor">
-                                            R$84,59
+                                            <button onclick="window.location.href='pagamento2.html'" class="btn-inicio">
+                                                R$84,59
+                                            </button>
                                         </div>
                                     </div>
                                 </a>
@@ -162,6 +168,24 @@
     <!-- Roteamento do app-->
     <script type="text/javascript" src="js/routes.js"></script>
     <script src="cordova.js"></script>
+
+    <script>
+    const link4 = document.getElementById("perfilLink4");
+    const linkPerfil = document.getElementById("perfilLinkPerfil");
+
+    const params = new URLSearchParams(window.location.search);
+    const modo = params.get("modo"); // modo=login ou modo=padrao
+
+    if (modo === "login") {
+        link4.style.display = "none";
+        linkPerfil.style.display = "flex";
+    } else {
+        link4.style.display = "flex";
+        linkPerfil.style.display = "none";
+    }
+    </script>
+
+
 </body>
 
 </html>
